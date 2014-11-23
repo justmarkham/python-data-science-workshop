@@ -7,7 +7,7 @@ Instructors: [Kevin Markham](http://www.dataschool.io/about/) and [Sinan Ozdemir
 ### Agenda
 
 1. Why Python for data science?
-2. Intermediate Python
+2. Python basics
 3. Getting data
 4. [pandas](http://pandas.pydata.org/pandas-docs/stable/index.html) for data exploration and visualization
     * Alcohol consumption data: [FiveThirtyEight article](http://fivethirtyeight.com/datalab/dear-mona-followup-where-do-people-drink-the-most-beer-wine-and-spirits/), [their GitHub repository](https://github.com/fivethirtyeight/data), [modified data](drinks.csv)
