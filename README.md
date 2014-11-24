@@ -12,11 +12,11 @@ Instructors: [Kevin Markham](http://www.dataschool.io/about/) and [Sinan Ozdemir
 3. Getting data
 4. [pandas](http://pandas.pydata.org/pandas-docs/stable/index.html) for data exploration and visualization
     * Alcohol consumption data: [FiveThirtyEight article](http://fivethirtyeight.com/datalab/dear-mona-followup-where-do-people-drink-the-most-beer-wine-and-spirits/), [their GitHub repository](https://github.com/fivethirtyeight/data), [modified data](drinks.csv)
-    * [Code](pandas.py)
+    * [Code](pandas_data_exploration.py)
     * [split-apply-combine](http://i.imgur.com/yjNkiwL.png) pattern
 5. [scikit-learn](http://scikit-learn.org/stable/) for machine learning
     * Introduction to machine learning ([slides](machine_learning.pdf))
-    * [Code](sklearn.py)
+    * [Code](sklearn_machine_learning.py)
 6. Recommended resources for self-learning
     * Basic Python: [Codecademy](http://www.codecademy.com/en/tracks/python), [Google's Python Class](https://developers.google.com/edu/python/), [Python Tutor](http://pythontutor.com/) (to visualize code execution)
     * Pandas: [tutorial](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/), [book: "Python for Data Analysis"](http://shop.oreilly.com/product/0636920023784.do) (includes numpy and Python reference)
