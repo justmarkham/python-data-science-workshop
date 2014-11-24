@@ -69,17 +69,17 @@ calc(5, 3)
 
 calc()
 
-import math				# import statement
+import math                     # import statement
 
 flubber = [2, 5, 7, 4, 2, 5]
 len(flubber)
-[x**2 for x in flubber]    # list comprehension
-[x / 2.0 for x in flubber] #note the 2.0 instead of 2
+[x**2 for x in flubber]         # list comprehension
+[x / 2.0 for x in flubber]      # note the 2.0 instead of 2
 [math.sqrt(x) for x in flubber]
 
 
-point_1 = (1, 2, 2)   #tuples have a paranthesis
-point_2  = (3, 4, 5)
+point_1 = (1, 2, 2)             # tuples have parentheses
+point_2 = (3, 4, 5)
 
 pairs = zip(point_1, point_2)
 for x in pairs:
@@ -90,43 +90,25 @@ for x in pairs:
 [x[0] for x in pairs]
 
 
-def euclidean_distance(point_1, point_2): # == 4.123105625617661
-    zipped_numbers = zip(point_1, point_2) #zips the two tuples together, also works on lists
+def euclidean_distance(point_1, point_2):  # == 4.123105625617661
+    zipped_numbers = zip(point_1, point_2) # zips the two tuples together, also works on lists
     differences_squared = [(x1 - y1)**2 for x1, y1 in zipped_numbers]
     sum_of_differences = sum(differences_squared)
     return math.sqrt(sum_of_differences)
-    
-    
+
 def euclidean_distance2(point_1, point_2): # == 4.123105625617661
-    zipped_numbers = zip(point_1, point_2) #zips the two tuples together, also works on lists
+    zipped_numbers = zip(point_1, point_2) # zips the two tuples together, also works on lists
     differences_squared = [(x[0] - x[1])**2 for x in zipped_numbers]
     sum_of_differences = sum(differences_squared)
     return math.sqrt(sum_of_differences)
     
 def euclidean_distance3(point_1, point_2): # == 4.123105625617661
-    zipped_numbers = zip(point_1, point_2) #zips the two tuples together, also works on lists
-    sum_of_list = 0    
+    zipped_numbers = zip(point_1, point_2) # zips the two tuples together, also works on lists
+    sum_of_list = 0
     for pair in zipped_numbers:
         print pair
         print pair[0] - pair[1]
         sum_of_list = sum_of_list + (pair[0] - pair[1])**2
     return math.sqrt(sum_of_list)   
-
-
-    
-    
-    
     
 euclidean_distance3(point_1, point_2)
-
-
-
-
-
-
-
-
-
-
-
-
